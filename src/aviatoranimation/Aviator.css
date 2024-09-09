@@ -1,0 +1,46 @@
+.loading-text {
+    color: #fff;
+    margin: auto;
+}
+
+    .stage-canvas-div {
+        width: 100%;
+        border: 1px solid #414148;
+        border-radius: 10px;
+        position: relative;
+        height: calc(100vh - 280px);
+        z-index: 0;
+    }
+
+    .stage-canvas {
+        border: 1px solid black;
+        border-radius: 10px;
+        touch-action: auto;
+        aspect-ratio: 16/9;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .stage-canvas-div-with-chatbox {
+        border-radius: 10px;
+        width: 100%;
+        height: calc(100vh - 280px);
+        border: 1px solid #414148;
+        position: relative;
+        z-index: 0;
+    }
+
+    .stage-canvas-1 {
+        border: 1px solid black;
+        border-radius: 10px;
+        touch-action: auto !important;
+        width: 100% !important;
+        height: 100% !important;
+        cursor: inherit;
+    }
+
+    @media (max-width:768px) {
+        .stage-canvas-div{
+            height: 100%;
+        }
+    }

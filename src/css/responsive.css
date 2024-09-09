@@ -1,0 +1,42 @@
+.bet-controls-sec {
+    /* margin-top: .5rem; */
+    position: relative;
+}
+@media screen and (max-width: 767px) {
+    .header-left-sec {
+        gap: .4rem;
+    }
+
+    .question-sec {
+      display: none;
+    }
+    .responsive-ques{
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+    .responsive-ques img{
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .aviator-heading h4 {
+        font-size: 14px;
+    }
+
+    .aviator-heading h5 {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:350px) {
+        .menu-dropdown{
+          width: 260px;
+        }
+}
+
+
